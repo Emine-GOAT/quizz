@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(126,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%2380F'/%3E%3Cstop offset='1' stop-color='%23f40'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='29' height='29' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='14.5' cy='14.5' r='14.5'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.05'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+}
+.app {
+  background-color: whitesmoke;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+.app h1 {
+  font-weight: 25px;
+  color: blueviolet;
+  font-weight: 600;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+.quizz h2 {
+  font-size: 18px;
+  color: blueviolet;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.btn {
+  background: white;
+  color: dimgrey;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover {
+  background: purple;
+  color: #ffffff;
+}
+#next-button {
+  background-color: blueviolet;
+  color: #ffffff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.correct {
+  background: #9aeabc;
+}
+
+.incorrect {
+  background: #ff9393;
+}
